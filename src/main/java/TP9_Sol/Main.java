@@ -20,7 +20,7 @@ public class Main {
         Color back = bd.getBackground();
         Color fore = bd.getForeground();
 
-        Scenario scenario = new Scenario();
+        Scenario scenario = new Scenario(bd);
         scenario.ajouterEffet(c, 1);
         scenario.ajouterEffet(cl, 5);
         scenario.ajouterEffet(z, 1);
